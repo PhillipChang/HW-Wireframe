@@ -6,57 +6,60 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     color:#777;
     background:#777;
-    width: 1000px;
-    height:1000px;
-    font-size:14px;
-    display:block;
+    font-size:18px;
+    text-align:center;
+    width:960px;
+    margin: 0 auto;
 }
 
-#topheader,nav,section,aside,footer {
+header,nav,section,aside,footer {
     background:#ebebeb;
     text-align:center;
+    display:block;
+    line-height:1.5;
 }
-#topheader,nav {
+header {
     padding:20px;
     text-align:center;
-    width:100%;
-    margin-top:0px;
+    margin-top: 10px;  
 }
-
+nav {
+    padding:20px;
+    text-align:center;
+    margin-top: -10px;
+    margin-bottom:10px;  
+}
 article {
     color:#ebebeb;
     background:#777;
-    margin:10px;
-    padding:5px;
+    margin:20px -20px -20px -20px;
+    padding:15px;
 }
 
-#aheader,p {
+h1,p {
     color:#777;
     background:#ebebeb;
     margin:10px;
-    padding:10px;
+    padding:15px;
 }
+
 aside {
     padding:20px;
-    text-align:center;
-    margin-left:10px;
-    width:425px;
-    height:205px;
-    margin:20px 0px;
+    margin:00px auto;
+    height:285px;
+    margin:10px auto;
     float:right;
+    width:455px;
 }
 
 section {
-    text-align:center;
-    padding:20px;
-    margin:20px 0px;
+    padding:30px;
+    margin:10px auto;
     float:left;
-    width:550px;
+    width:495px;
 }
 
 footer {
-    text-align:center;
-    margin-top:50px;
     clear:both;
     padding:20px;
     width:100%;
