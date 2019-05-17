@@ -2,7 +2,7 @@
 
 A web design skeleton
 
-![Site Screenshot](website.png)
+![Site Screenshot](website.PNG)
 
 ## Technologies Used
 
